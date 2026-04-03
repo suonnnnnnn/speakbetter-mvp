@@ -1,0 +1,25 @@
+{
+  "name": "speakbetter-mvp",
+  "version": "1.0.0",
+  "description": "SpeakBetter MVP - AI口语表达训练产品",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "keywords": [
+    "ai",
+    "speech",
+    "training",
+    "mvp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "localtunnel": "^2.0.2",
+    "vercel": "^50.38.3"
+  }
+}
